@@ -1,0 +1,16 @@
+{
+  "name": "map-object-keys",
+  "version": "1.0.0",
+  "description": "Map object keys, the way it should be",
+  "main": "index.js",
+  "author": "Jonathan Grim <jonjongrim@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "uglifyjs ./index.js -c -o dist.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "uglify-es": "^3.3.9"
+  }
+}
