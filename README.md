@@ -4,7 +4,8 @@ So you want to map keys of an object and you want to feel like a badass while do
 
 ```js
 const obj = { first: 'Jon', last: 'Grim' };
-const transformedObj = mapObjectKeys(obj, ''.toUpperCase);
+const fn = str => str.toUpperCase();
+const transformedObj = mapObjectKeys(obj, fn);
 console.log(transformedObj):
 // { FIRST: 'Jon', LAST: 'Grim' }
 ```
