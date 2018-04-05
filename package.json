@@ -1,6 +1,6 @@
 {
   "name": "map-object-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Map object keys, the way it should be",
   "main": "dist.js",
   "author": "Jonathan Grim <jonjongrim@gmail.com>",
