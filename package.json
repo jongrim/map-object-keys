@@ -1,11 +1,12 @@
 {
   "name": "map-object-keys",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Map object keys, the way it should be",
   "main": "dist.js",
   "author": "Jonathan Grim <jonjongrim@gmail.com>",
   "license": "MIT",
   "files": ["dist.js"],
+  "keywords": ["map", "object", "keys", "functional"],
   "repository": {
     "type": "git",
     "url": "https://github.com/jongrim/map-object-keys"

@@ -1,6 +1,6 @@
 # map-object-keys
 
-So you want to map keys of an object and you want to feel like a badass while doing it? Hell yeah, how's this feel?!
+So you want to map keys of an object and you want to feel like a badass while doing it? Hell yeah, check this out:
 
 ```js
 const mapObjectKeys = require('map-object-keys');
@@ -11,9 +11,9 @@ console.log(transformedObj);
 // { FIRST: 'Jon', LAST: 'Grim' }
 ```
 
-Why is this so cool? Because all the other mapKeys functions out there pass you the value first, and the key second. This prevents you from just pass a function reference when all you want to do is a basic transform like upper case or change to snake case or whatever.
+Why is this so cool? Because all the other mapKeys functions out there pass you the value first, and the key second. This prevents you from just passing a function reference when all you want to do is a basic transform like making the key uppercase or changing to snake case or whatever.
 
-This one still give you the value to, if that's your thing. It'll be passed as the second argument to your callback, so you can still use it in the mapping if you want.
+This one still give you the value too, if that's your thing. It'll be passed as the second argument to your callback, so you can still use it in the mapping if you want.
 
 ```js
 const mapObjectKeys = require('map-object-keys');
